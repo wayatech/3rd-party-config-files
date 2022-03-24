@@ -25,7 +25,7 @@ module.exports = {
     "no-eval": "error",
     "no-lonely-if": "error",
     "no-loop-func": "error",
-    "no-magic-numbers": ["error", { ignoreArrayIndexes: true }],
+    "no-magic-numbers": ["error", { ignoreArrayIndexes: true, "ignore": [0, 1] }],
     "no-mixed-operators": ["error", { allowSamePrecedence: true }],
     "no-multi-assign": ["error", { ignoreNonDeclaration: true }],
     "no-multi-str": "error",
